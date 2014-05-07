@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Markdown the word!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using node.js <script>document.write(process.version)</script>
+    and atom-shell <script>document.write(process.versions['atom-shell'])</script>.
+
+    Current app version:
+    <script>
+      var remote = require('remote');
+      document.write(remote.require('app').getVersion());
+    </script>
+  </body>
+</html>
